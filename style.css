@@ -1,0 +1,329 @@
+
+#bo{
+    background:rgb(241, 240, 240)
+}
+header{
+    width: 100%;
+    height:100vh;
+    background: url(pi.png),url(bg2.jpg);
+    background-size: 35% 60%,cover;
+    background-position: right , center;
+    background-repeat: no-repeat,no-repeat;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    background-attachment: fixed; 
+}
+
+.logo{
+    color: white;
+    font-size: 50px;
+    padding-left: 100px;
+    letter-spacing: 2px;
+}
+.logo span{
+    color:rgb(247, 58, 25);
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding:10px 20px;
+    margin:5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.menu a:hover{
+    background:rgb(243, 57, 24);
+    transition: 0.4;
+    border-radius: 15px;
+}
+.menu{
+    margin-right: 100px;
+}
+nav{
+    width:100%;
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.write{
+    color:white;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+.write h1{
+    font-size: 49px;
+}
+.write p{
+    font-size: 27px;
+}
+.btn1{
+    border:none;
+    outline:none;
+    color:white;
+    background:rgb(243, 57, 24);
+    padding:10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#about{
+    padding:50px 50px;
+}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+}
+.section-info h1{
+    font-size: 50px;
+}
+.section-info p{
+    font-size: 25px;
+    color: rgb(226, 51, 21);
+}
+.about-row{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis:40%;
+}
+.about-left-col img{
+    width:100%;
+    padding:30px;
+}
+.about-right-col{
+    margin-left: 100px;
+    flex-basis: 50%;
+}
+#ahead{
+    font-size: 28px;
+    font-weight: bold;
+}
+.self{
+    font-size: 20px;
+}
+.btn2{
+    border:none;
+    outline:none;
+    color:white;
+    background:rgb(126, 211, 15);
+    padding:10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#skills{
+    padding:5px 50px;
+    background: url(sbg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.skills-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background:rgb(61, 60, 60);
+    padding: 10px;
+}
+.skills-left-col{
+    flex-basis: 42%;
+    text-align: justify;
+    color:aliceblue;
+    font-size: 20px;
+}
+.skills-right-col{
+    flex-basis: 50%;
+}
+progress{
+    width: 90%;
+}
+.pro{
+    width:70%;
+    margin: auto;
+}
+.pro p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 100px;
+    text-align: justify;
+}
+#serv{
+    padding:10px 10px;
+}
+.serv-row{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.serv-row img{
+    width:100%;
+}
+
+.serv-box{
+    flex-basis: 20%;
+    text-align: center;
+    box-shadow: 3px 4px 6px grey; 
+    padding: 15px;
+}
+.serv-box:hover{
+    background: rgb(196, 250, 160);
+    color:rgb(9, 9, 10);
+    font-size: 20px;
+    transition: 0.0s;
+}
+
+#contact{
+    padding: 45px 50px;
+    background: linear-gradient(240deg,rgb(228, 253, 228) 55%, white 0%);
+}
+.con-row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.con-l-col{
+    flex-basis: 50%;
+    
+}
+.con-l-col img{
+    padding-left: 200px;
+}
+.con-r-col{
+    flex-basis: 50%;
+}
+.con-r-col form h2{
+    margin-bottom: 20px;
+}
+.con-r-col form input{
+    width:60%;
+    padding:8px;
+    margin-bottom: 10px;
+}
+.con-r-col form textarea{
+    width:60%;
+    padding:8px;
+}
+#footer{
+    background: rgb(172, 168, 171);
+    color: white;
+    padding:5px;
+    display:flex;
+    justify-content: space-around;
+    font-size:17px;
+    align-items: center;
+}
+
+@media only screen and (max-width:770px)
+{
+    header{
+        background:url(bg2.jpg);
+        background-size: cover;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        font-size: 37px;
+        padding-left: 50px;
+    }
+    .write{
+        color:white;
+        margin-top: 120px;
+        margin-left: 30px;
+        
+    }
+    .write h1{
+        font-size: 30px;
+    }
+    .write p{
+        font-size: 18px;
+    }
+    .section-info h1{
+        font-size: 35px;
+    }
+    .section-info p{
+        font-size: 22px;
+    }
+    #about{
+        padding:10px 50px;
+    }
+    .about-left-col{
+        flex-basis:100%;
+    }
+    .about-left-col img{
+        width:120%;
+        height: 230px;
+        padding:2px;
+    }
+    .about-right-col{
+        margin-left: 5px;
+        flex-basis: 100%;
+    }
+    .skills-left-col{
+        flex-basis: 100%;
+        font-size: 14.2px;
+    }
+    .skills-right-col{
+        flex-basis: 100%;
+    }
+    #ahead{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .self{
+        font-size: 16px;
+    }
+
+    progress{
+        width: 80%;
+        margin: auto;
+    }
+    .pro{
+        width:85%;
+        margin: auto;
+    }
+    .pro p{
+        margin-bottom: 10px;
+        font-size: 13px;
+        padding-left: 0px;
+        text-align: justify;
+    }
+    .serv-box{
+        flex-basis: 100%;
+        margin-top: 10px;
+    }
+    .serv-box img{
+        width:100%;
+    }
+    .con-l-col{
+        flex-basis: 100%;
+        
+    }
+    .con-l-col img{
+        display: none;
+    }
+    .con-r-col{
+        flex-basis: 100%;
+        padding-left: 10px;
+        font-size: 12.5px;
+    }
+    .con-r-col form input{
+        width:70%;
+        padding:8px;
+        margin-bottom: 10px;
+    }
+    .con-r-col form textarea{
+        width:70%;
+        padding:8px;
+    }
+    #footer{
+        font-size: 12px;
+    }
+}
